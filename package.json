@@ -18,9 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006 public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=bb11a988da5c"
+    "chromatic": "npx chromatic --project-token=bb11a988da5c",
+    "build-storybook-docs": "build-storybook  --docs"
   },
   "eslintConfig": {
     "extends": [
